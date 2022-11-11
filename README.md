@@ -35,4 +35,9 @@ The final softmax layer is of the size of the number of classes, we are
 using 9 classes for both Batting and Umpiring. We are using Adam
 optimization which will make the algorithm converge towards the minima
 faster, and the Categorical cross-entropy loss function for multiclass
-classification
+classification.
+
+![3D CNN model architecture](https://user-images.githubusercontent.com/75822824/201369082-4104ffb9-9627-4e3b-8e64-82281f6fe4e7.png)
+
+
+
