@@ -10,7 +10,7 @@ field of cricket for the following:
 2. Check if a bowler has legal action or not.
 3. Cricket Umpire signal Identification.
 
-#Proposed Solution
+## Proposed Solution
 
 We created a hybrid model that contains a 3D Convolutional Neural
 network and a 1D Convolutional Neural network, 3D CNN consists of five
