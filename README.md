@@ -41,9 +41,6 @@ classification.
 
 ## The proposed solution required development of the following modules :
 
-![techstackIBM](https://user-images.githubusercontent.com/75822824/201369739-ebb270a2-1fdc-4ec6-b134-799ed031c08f.png)
-
-
 1. Data Extraction - We recorded videos of cricket shots and umpiring actions for
 the dataset. Captured videos of different poses of different persons and store the
 data for further processing. The following modules were implemented for the data
@@ -108,5 +105,8 @@ testing. For testing input, we are using a video consisting of cricket shot
 frames and umpiring actions frames. The module will highlight the action
 which will be taken by the person in the video according to the predicted
 class label.
+
+![techstackIBM](https://user-images.githubusercontent.com/75822824/201369739-ebb270a2-1fdc-4ec6-b134-799ed031c08f.png)
+
 
 
