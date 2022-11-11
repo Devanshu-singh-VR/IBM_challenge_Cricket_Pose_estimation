@@ -111,10 +111,9 @@ class label.
 
 ## Output
 
-![Gif 2 (Batting)](https://user-images.githubusercontent.com/75822824/201370989-5ebf0d36-865f-4033-b0dd-2a027cb015f0.gif)
-
-
 ![Gif 1 (Umpire)](https://user-images.githubusercontent.com/75822824/201371005-9d058928-2ab2-4cb3-8c98-855242f956c3.gif)
+
+![Gif 2 (Batting)](https://user-images.githubusercontent.com/75822824/201371221-fdd51ccd-fa2e-40c2-b0c3-36c413924ef6.gif)
 
 
 
