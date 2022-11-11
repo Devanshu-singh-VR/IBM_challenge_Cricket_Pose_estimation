@@ -39,5 +39,74 @@ classification.
 
 ![3D CNN model architecture](https://user-images.githubusercontent.com/75822824/201369082-4104ffb9-9627-4e3b-8e64-82281f6fe4e7.png)
 
+## The proposed solution required development of the following modules :
+
+![techstackIBM](https://user-images.githubusercontent.com/75822824/201369739-ebb270a2-1fdc-4ec6-b134-799ed031c08f.png)
+
+
+1. Data Extraction - We recorded videos of cricket shots and umpiring actions for
+the dataset. Captured videos of different poses of different persons and store the
+data for further processing. The following modules were implemented for the data
+extraction.
+
+- capture_data.py - This module is used to record the live video and store it
+in a specific folder. We did this with the help of OpenCV Library.
+
+- extract frame.py - This module breaks down the captured video into 32-
+frame videos. Each video will be stored in a specific folder with a CSV file
+that will contain the path of every video.
+
+- data.csv - This CSV file contains a video path along with the class label
+corresponding to each video. We labeled every video manually for
+creating our dataset.
+
+2. Data Preprocessing - We used Pytorch for data processing. The video should
+be structured in a proper format for model training. The following modules were
+implemented for the data preprocessing.
+
+- data_lit.py - This module contains a video_get() function which will
+convert the video data into a Pytorch tensor of size (no channels, frame,
+width, height), the default size is (3, 32, 200, 200), and it also extracts
+human body landmarks with the help of MediaPipe library which will be
+further converted into Pytorch tensor of size (frame, no of landmarks). This
+module will return the video tensor, landmark tensor, and labels
+corresponding to every video.
+
+3. Model - We implemented a Deep Learning hybrid model consisting of the
+combination of 3D CNN and 1D CNN models.
+
+- OneD_CNN.py - This is a 1D CNN model which will take human body
+landmarks as an input of size (frames, total landmarks). This model
+consists of one 1D CNN layer along with the maxpool layer, and three
+linear layers. The output of the model will be size 120. The output of this
+model will be used further in the 3D CNN module.
+
+- ThreeD_CNN.py - This is a 3D CNN model which will take video as an
+input of size (no channels, frames, width, height). This model consists of
+five 3D CNN and maxpool layers along with the Batch Normalization and
+three linear layers. The output of this model will be concatenated with the
+output of the 1D CNN model, the size of the concatenated layer will be
+240. The concatenated output will be passed through the final softmax
+layer of size 9 (number of classes) for classification.
+
+4. Training - We combined all the modules for training the model. We used Pytorch
+for implementing and training the model. The following module we built for the
+training.
+
+- Train.py - This consists of a DataLoader function which will be used for the
+data processing with the help data_lit.py module. The data will be
+processed further into the CNN model and a Categorical Cross Entropy
+loss function will be used to optimize the Adam optimization function. We
+trained the model for 51 epochs. The model checkpoint will be saved
+during the training. Batch size of 1 is used for the training data.
+
+5. Testing - We used a video for testing the model both for cricket shots and
+umpiring actions. The following module we implemented for the testing.
+
+- test.py - This consists of a trained CNN model which will be used for the
+testing. For testing input, we are using a video consisting of cricket shot
+frames and umpiring actions frames. The module will highlight the action
+which will be taken by the person in the video according to the predicted
+class label.
 
 
