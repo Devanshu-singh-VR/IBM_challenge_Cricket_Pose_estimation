@@ -10,6 +10,17 @@ field of cricket for the following:
 2. Check if a bowler has legal action or not.
 3. Cricket Umpire signal Identification.
 
+The innovation we propose in our solution is a special feature of
+commentary. After the model has classified the shot, it will display the
+name of the shot as well as pronounce the name of the shot. For example,
+if a batsman hits a straight drive, the output will be displayed as "straight
+drive" and also a voice note would be played stating that "It is a straight
+drive". Similarly, this would also be applied to other models which will
+identify whether the action of the bowler is legal, and the signal of the
+umpire. This innovation would be a boon for visually impaired people who
+would like to know which shot is being played or what is the signal of the
+umpire.
+
 ## Proposed Solution
 
 We created a hybrid model that contains a 3D Convolutional Neural
@@ -107,14 +118,5 @@ which will be taken by the person in the video according to the predicted
 class label.
 
 ![techstackIBM](https://user-images.githubusercontent.com/75822824/201369739-ebb270a2-1fdc-4ec6-b134-799ed031c08f.png)
-
-
-## Output
-
-![Gif 1 (Umpire)](https://user-images.githubusercontent.com/75822824/201371005-9d058928-2ab2-4cb3-8c98-855242f956c3.gif)
-
-![Gif 2 (Batting)](https://user-images.githubusercontent.com/75822824/201371221-fdd51ccd-fa2e-40c2-b0c3-36c413924ef6.gif)
-
-
 
 
