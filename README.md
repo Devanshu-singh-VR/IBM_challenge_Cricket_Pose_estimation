@@ -85,8 +85,8 @@ model will be used further in the 3D CNN module.
 input of size (no channels, frames, width, height). This model consists of
 five 3D CNN and maxpool layers along with the Batch Normalization and
 three linear layers. The output of this model will be concatenated with the
-output of the 1D CNN model, the size of the concatenated layer will be
-240. The concatenated output will be passed through the final softmax
+output of the 1D CNN model, the size of the concatenated layer will be 240. 
+The concatenated output will be passed through the final softmax
 layer of size 9 (number of classes) for classification.
 
 4. Training - We combined all the modules for training the model. We used Pytorch
