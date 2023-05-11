@@ -25,12 +25,12 @@ umpire.
 
 
 
-https://github.com/Devanshu-singh-VR/IBM_challenge_Cricket_Pose_estimation/assets/75822824/99c0d8cb-9270-4bc7-9573-dc3caf02584e
+https://github.com/Devanshu-singh-VR/IBM_challenge_Cricket_Pose_estimation/assets/75822824/3757311c-5798-44ed-9976-2a54b4bce8b5
 
 
 
+https://github.com/Devanshu-singh-VR/IBM_challenge_Cricket_Pose_estimation/assets/75822824/a0f1f0c9-157c-4c52-a59b-aa1d0ffa8fed
 
-https://github.com/Devanshu-singh-VR/IBM_challenge_Cricket_Pose_estimation/assets/75822824/c3a80ed8-d3a5-4510-8e4d-b1f15dee163e
 
 
 ## Proposed Solution
