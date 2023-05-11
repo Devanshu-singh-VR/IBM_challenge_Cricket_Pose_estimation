@@ -21,6 +21,18 @@ umpire. This innovation would be a boon for visually impaired people who
 would like to know which shot is being played or what is the signal of the
 umpire.
 
+## Outputs 
+
+
+
+https://github.com/Devanshu-singh-VR/IBM_challenge_Cricket_Pose_estimation/assets/75822824/99c0d8cb-9270-4bc7-9573-dc3caf02584e
+
+
+
+
+https://github.com/Devanshu-singh-VR/IBM_challenge_Cricket_Pose_estimation/assets/75822824/c3a80ed8-d3a5-4510-8e4d-b1f15dee163e
+
+
 ## Proposed Solution
 
 We created a hybrid model that contains a 3D Convolutional Neural
