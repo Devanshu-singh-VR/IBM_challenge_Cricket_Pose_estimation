@@ -25,9 +25,7 @@ umpire.
 
 
 
-https://github.com/Devanshu-singh-VR/IBM_challenge_Cricket_Pose_estimation/assets/75822824/3757311c-5798-44ed-9976-2a54b4bce8b5
-
-
+https://github.com/user-attachments/assets/5d22eec1-dea3-486f-8ab9-57af7a5c0218
 
 
 
