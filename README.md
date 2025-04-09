@@ -29,6 +29,10 @@ https://github.com/Devanshu-singh-VR/IBM_challenge_Cricket_Pose_estimation/asset
 
 
 
+https://github.com/user-attachments/assets/8bf84b8d-0d8a-4d13-b02d-9e7a1e260e22
+
+
+
 https://github.com/Devanshu-singh-VR/IBM_challenge_Cricket_Pose_estimation/assets/75822824/a0f1f0c9-157c-4c52-a59b-aa1d0ffa8fed
 
 
